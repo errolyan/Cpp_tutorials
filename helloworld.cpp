@@ -3,6 +3,8 @@
 
 using namespace std;
 
+extern int myage;
+
 int sum(int a,int b){
     int c;
     c = a+b;
@@ -16,6 +18,20 @@ void Multipaly(){
         }
         cout<<"\n";
     }
+}
+
+void referencelearn() //引用与指针的区别
+{
+    int g = 9;
+    int i = 0;
+    int *h = nullptr;
+    h = &g;
+    int &j = g;
+    cout<<"j="<<j<<" g="<< g<<" h="<<h<< " 指针指向的值"<<*h<<endl;
+    g=99;
+    h = &i;
+    cout<<"j="<<j<<" g="<< g<<" h="<<h<< " 指针指向的值"<<*h<<endl;
+
 }
 
 void testwhile(int aa=10){
@@ -76,5 +92,29 @@ int main(){
     
     // 测试指针
     myPtr();
+
+    // 测试引用和指针
+    referencelearn();
+
+    // 类
+    human h1(100,2);
+    int result = h1.move();
+    cout << h1.a<< " "<<h1.b << " 结果:"<< result<<endl;
+
+
+    human * hptr = &h1;
+    int result1 = hptr->move();
+    cout << hptr->a<<" "<< hptr->b << " 结果:"<< result1 <<endl;
+
+    // extern关键字,全局变量在调用前需要先使用extern 表示在是外部定义的变量
+    cout<< myage<<endl;
+
+    // static
+    human h2(200,200);
+    int result2 = h1.move();
+    int cc = human::print();
+    cout << h2.a<< " "<<h2.b << " 结果:"<< result2<<" "<< cc <<endl;
+
+  
     return 0;
 }

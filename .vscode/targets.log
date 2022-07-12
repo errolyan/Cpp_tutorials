@@ -10,7 +10,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 make: *** No rule to make target `all'.  Stop.
 
 
-# Make data base, printed on Mon Jul 11 22:07:48 2022
+# Make data base, printed on Tue Jul 12 10:28:40 2022
 
 # Variables
 
@@ -21,16 +21,16 @@ make: *** No rule to make target `all'.  Stop.
 # environment
 VSCODE_LOG_NATIVE = false
 # environment
+ 
 NVM_INC = /Users/yanerrol/.nvm/versions/node/v10.23.0/include/node
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
- 
 # automatic
 @F = $(notdir $@)
 # makefile
-CURDIR := /Users/yanerrol/Desktop/C++Algorithms/mycode
+CURDIR := /Users/yanerrol/Desktop/Cpp_tutorials
 # makefile
 SHELL = /bin/sh
 # environment
@@ -44,7 +44,7 @@ VSCODE_VERBOSE_LOGGING = true
 # environment
 __CFBundleIdentifier = com.microsoft.VSCode
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /var/folders/9_/r9r35c1n7fq57r4j0w7ll4hw0000gn/T/vscode-ipc-3de414ae-eeeb-49c0-9a21-13faa33cc9f4.sock
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/9_/r9r35c1n7fq57r4j0w7ll4hw0000gn/T/vscode-ipc-c08700a5-4e90-4a93-8ad8-faff9224d98d.sock
 # environment
 VSCODE_CWD = /
 # environment
@@ -70,7 +70,7 @@ CONDA_EXE = /Users/yanerrol/opt/anaconda3/bin/conda
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
-PWD = /Users/yanerrol/Desktop/C++Algorithms/mycode
+PWD = /Users/yanerrol/Desktop/Cpp_tutorials
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = undefined
 # environment
@@ -150,6 +150,7 @@ __CF_USER_TEXT_ENCODING = 0x1F5:0x19:0x34
 # environment
 COMMAND_MODE = unix2003
 # default
+ 
 MAKEFILES := 
 # automatic
 <F = $(notdir $<)
@@ -186,9 +187,9 @@ LANG = C
 
 # Directories
 
-# . (device 16777220, inode 163890177): 7 files, no impossibilities.
+# . (device 16777220, inode 163928296): 10 files, no impossibilities.
 
-# 7 files, no impossibilities in 1 directories.
+# 10 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -233,7 +234,6 @@ makefile:
 
 # Not a target:
 .DEFAULT:
- 
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -261,6 +261,6 @@ GNUmakefile:
 # strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
 # strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
 
-# Finished Make data base on Mon Jul 11 22:07:48 2022
+# Finished Make data base on Tue Jul 12 10:28:40 2022
 
  
